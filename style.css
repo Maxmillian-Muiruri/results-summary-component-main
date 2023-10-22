@@ -1,0 +1,151 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+ 
+}
+.container {
+  background: hsl(252, 100%, 59%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  max-width: 1440px;
+  max-height: 1440px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: rgb(252, 214, 214);
+
+}
+.content {
+  border-radius: 50%;
+  background-color: hsl(241, 81%, 54%);
+  height: 110px;
+  width: 110px;
+  justify-content: space-around;
+}
+h2 {
+  font-size: 3em;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.summary {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+  width: 90vw;
+  margin-top: 30px;
+}
+.title {
+  display: flex;
+  justify-content: left;
+  color: hsl(224, 30%, 27%);
+  font-size: 20px;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsla(0, 67%, 83%, 0.178);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+.reaction-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: hsl(0, 100%, 67%);
+}
+
+.reaction2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsla(34, 70%, 81%, 0.226);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 15px 10px;
+}
+.reaction-icon2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: hsl(39, 100%, 56%);
+}
+
+.reaction3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsla(166, 78%, 73%, 0.062);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 15px 10px;
+}
+.reaction-icon3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: hsl(166, 100%, 37%);
+}
+
+.reaction4 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsla(234, 72%, 83%, 0.158);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 15px 10px;
+}
+.reaction-icon4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: hsl(234, 85%, 45%);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  height: 50px;
+  width: 40vh;
+  border-radius: 40px;
+  margin: 30px auto;
+}
+#max {
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.6;
+}
